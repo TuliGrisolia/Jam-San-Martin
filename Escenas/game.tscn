@@ -1,0 +1,28 @@
+[gd_scene load_steps=7 format=3 uid="uid://b3yu0cafyohfx"]
+
+[ext_resource type="Script" path="res://Scripts/Game.gd" id="1_0vflf"]
+[ext_resource type="Texture2D" uid="uid://by6e6jefngkv6" path="res://Assets/sprites/snake.png" id="2_4dj6s"]
+[ext_resource type="Texture2D" uid="uid://cajda08lxiugy" path="res://Assets/sprites/Food.png" id="3_v5v6n"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j5heh"]
+texture = ExtResource("2_4dj6s")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0s7l6"]
+texture = ExtResource("3_v5v6n")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_lvtgr"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_j5heh")
+sources/2 = SubResource("TileSetAtlasSource_0s7l6")
+
+[node name="Game" type="Node"]
+script = ExtResource("1_0vflf")
+
+[node name="SnakeFood" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_lvtgr")
+format = 2
