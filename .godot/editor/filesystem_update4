@@ -1,4 +1,6 @@
+res://Escenas/menu.tscn
 res://Escenas/game.tscn
-res://Scripts/Game.gd
-res://Scripts/score.gd
 res://Escenas/score.tscn
+res://Escenas/pantalla_intro.tscn
+res://Escenas/creditos.tscn
+res://Scripts/menu.gd

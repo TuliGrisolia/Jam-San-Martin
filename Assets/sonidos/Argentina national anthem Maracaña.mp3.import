@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtw23m4qjryfp"
+path="res://.godot/imported/Argentina national anthem Maracaña.mp3-921d8b3f024cff1df6bcf33eb2cd8352.mp3str"
+
+[deps]
+
+source_file="res://Assets/sonidos/Argentina national anthem Maracaña.mp3"
+dest_files=["res://.godot/imported/Argentina national anthem Maracaña.mp3-921d8b3f024cff1df6bcf33eb2cd8352.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

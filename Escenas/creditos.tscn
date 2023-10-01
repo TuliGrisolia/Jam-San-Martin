@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cuycmjyvn6ycx"]
+
+[ext_resource type="Texture2D" uid="uid://cfclw873hkboo" path="res://Assets/sprites/fondo-intro.jpg" id="1_f8im2"]
+[ext_resource type="FontFile" uid="uid://pkxbkski0xb4" path="res://Assets/fuentes/Kenney Future Narrow.ttf" id="2_o60ge"]
+[ext_resource type="Texture2D" uid="uid://cf742lff0jb3g" path="res://Assets/sprites/fans.png" id="3_0v6is"]
+
+[node name="creditos" type="Node2D"]
+
+[node name="Fondo-intro" type="Sprite2D" parent="."]
+position = Vector2(320, 323)
+texture = ExtResource("1_f8im2")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 30.0
+offset_top = 45.0
+offset_right = 448.0
+offset_bottom = 268.0
+theme_override_colors/default_color = Color(0, 0.117647, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_o60ge")
+text = "Juan Pablo Kavulakian
+Juliana Grisolia
+
+Jam de San Martín
+Materia: Técnicas y Herramientas para Desarrollo de Videojuegos
+
+Profesor: Daniel Horacio Natarelli
+
+Image Campus"
+
+[node name="Fans" type="Sprite2D" parent="."]
+position = Vector2(523, 111)
+scale = Vector2(0.318476, 0.318476)
+texture = ExtResource("3_0v6is")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 224.0
+offset_top = 436.0
+offset_right = 444.0
+offset_bottom = 514.0
+text = "Main Menú"

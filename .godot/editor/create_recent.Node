@@ -1,4 +1,7 @@
+Button
 AudioStreamPlayer
+RichTextLabel
+AnimationPlayer
 Label
 TextureRect
 Timer
