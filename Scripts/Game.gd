@@ -16,6 +16,8 @@ func _ready():
 	
 func _process(delta):
 	check_game_over()
+	if food_pos in snake_body:
+		food_pos = def_pos_food()
 	pass
 	
 func _input(event):
@@ -100,6 +102,7 @@ func check_game_over():
 func reset():
 	snake_body = [Vector2i(10,10), Vector2i(9,10), Vector2i(8,10)]
 	snake_direction = Vector2i(1,0)
+	get_tree(). call_group("ScoreGroup", "update_score", snake_body.size() - 1)
 	pass
 	
 func delete_tiles(id:int):
