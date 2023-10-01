@@ -7,6 +7,8 @@ var food_pos
 var snake_body = [Vector2i(10,10), Vector2i(9,10), Vector2i(8,10)]
 var snake_direction = Vector2i(1,0)
 
+var snake_fruits_eaten = []
+
 var adding_food = false
 
 # Called when the node enters the scene tree for the first time.
@@ -59,37 +61,29 @@ func add_snake():
 	pass
 	
 func move_snake():
-	if adding_food:
-#		delete_tiles(SNAKE)
-		var body_copy = snake_body
-		if snake_body.size() > 2:
-			body_copy = snake_body.slice(0, snake_body.size() - 1)
-		var new_head = body_copy[0] + snake_direction
-		body_copy.insert(0, new_head)
-		snake_body = body_copy
-		adding_food = false
-	else: 
-#		delete_tiles(SNAKE)
-		var body_copy = snake_body
-		if snake_body.size() > 2:
-			body_copy = snake_body.slice(0, snake_body.size() - 2)
-		var new_head = body_copy[0] + snake_direction
-		body_copy.insert(0, new_head)
-		snake_body = body_copy
+	delete_tiles(SNAKE)
+	var new_head = snake_body[0] + snake_direction
+	snake_body.push_front(new_head)
+	if snake_fruits_eaten.has(snake_body.back()):
+		snake_fruits_eaten.erase(snake_body.back())
+		
+	else:
+		snake_body.pop_back()
 	pass
 	
 func check_food_eaten():
 	if food_pos == snake_body[0]:
+		snake_fruits_eaten.push_front(snake_body[0])
 		food_pos = def_pos_food()
 		adding_food = true
 		$growing.play()
-		get_tree().call_group("ScoreGroup", "update_score", snake_body.size())
+		get_tree(). call_group("ScoreGroup", "update_score", snake_body.size())
 	pass
 	
 func check_game_over():
 	var head = snake_body[0]
 	# salir de la pantalla
-	if head.x > 20 or head.y < 0 or head.y < 0 or head.y > 20:
+	if head.x > 20 or head.x < 0 or head.y < 0 or head.y > 20:
 		$impact.play()
 		reset()
 	# tocar su cuerpo
