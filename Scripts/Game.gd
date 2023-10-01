@@ -51,6 +51,11 @@ func move_snake():
 	snake_body = body_copy
 	pass
 	
+func check_food_eaten():
+	if food_pos == snake_body[0]:
+		food_pos = def_pos_food()
+	pass
+	
 func delete_tiles(id:int):
 	var cells = $SnakeFood.get_used_cells_by_id(id)
 	for cell in cells:
@@ -61,4 +66,5 @@ func _on_timer_timeout():
 	move_snake()
 	add_food()
 	add_snake()
+	check_food_eaten()
 	pass # Replace with function body.
