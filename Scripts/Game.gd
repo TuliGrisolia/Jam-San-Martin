@@ -60,7 +60,7 @@ func add_snake():
 	
 func move_snake():
 	if adding_food:
-		delete_tiles(SNAKE)
+#		delete_tiles(SNAKE)
 		var body_copy = snake_body
 		if snake_body.size() > 2:
 			body_copy = snake_body.slice(0, snake_body.size() - 1)
@@ -69,7 +69,7 @@ func move_snake():
 		snake_body = body_copy
 		adding_food = false
 	else: 
-		delete_tiles(SNAKE)
+#		delete_tiles(SNAKE)
 		var body_copy = snake_body
 		if snake_body.size() > 2:
 			body_copy = snake_body.slice(0, snake_body.size() - 2)
@@ -83,7 +83,7 @@ func check_food_eaten():
 		food_pos = def_pos_food()
 		adding_food = true
 		$growing.play()
-		get_tree(). call_group("ScoreGroup", "update_score", snake_body.size())
+		get_tree().call_group("ScoreGroup", "update_score", snake_body.size())
 	pass
 	
 func check_game_over():
