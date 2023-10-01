@@ -80,16 +80,20 @@ func check_food_eaten():
 	if food_pos == snake_body[0]:
 		food_pos = def_pos_food()
 		adding_food = true
+		$growing.play()
+		get_tree(). call_group("ScoreGroup", "update_score", snake_body.size())
 	pass
 	
 func check_game_over():
 	var head = snake_body[0]
 	# salir de la pantalla
 	if head.x > 20 or head.y < 0 or head.y < 0 or head.y > 20:
+		$impact.play()
 		reset()
 	# tocar su cuerpo
 	for part in snake_body.slice(1, snake_body.size() - 1):
 		if part == head:
+			$impact.play()
 			reset()
 	pass
 	

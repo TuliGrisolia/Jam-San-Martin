@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1lxs178ap672"]
+
+[ext_resource type="FontFile" uid="uid://pkxbkski0xb4" path="res://Assets/fuentes/Kenney Future Narrow.ttf" id="1_fddq6"]
+[ext_resource type="Script" path="res://Scripts/score.gd" id="1_vgqm1"]
+
+[node name="Score" type="Control" groups=["ScoreGroup"]]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 0
+script = ExtResource("1_vgqm1")
+
+[node name="textoscore" type="Label" parent="."]
+layout_mode = 1
+offset_left = -45.0
+offset_top = -75.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0.117647, 0.392157, 1)
+theme_override_fonts/font = ExtResource("1_fddq6")
+theme_override_font_sizes/font_size = 64
+text = "0"
+metadata/_edit_use_anchors_ = true

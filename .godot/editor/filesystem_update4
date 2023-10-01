@@ -1,2 +1,4 @@
 res://Escenas/game.tscn
 res://Scripts/Game.gd
+res://Scripts/score.gd
+res://Escenas/score.tscn
