@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696177848
+::res://::1696181943
 icon.svg::CompressedTexture2D::7387400790285321232::1696110016::1696110048::1::::<><>::
 ::res://Assets/::1696115186
 ::res://Assets/fuentes/::1696115186
@@ -12,7 +12,7 @@ Song Snake-Wav.wav::AudioStreamWAV::2904489437092500972::1696115159::1696115160:
 Fondo.png::CompressedTexture2D::1046298431748868166::1696115022::1696115117::1::::<><>::
 Food.png::CompressedTexture2D::4791604282744201988::1696115060::1696116195::1::::<><>::
 snake.png::CompressedTexture2D::4135247348098015537::1696115051::1696115124::1::::<><>::
-::res://Escenas/::1696177687
-game.tscn::PackedScene::4402512461664902125::1696177687::0::1::::<><>::res://Scripts/Game.gd<>uid://by6e6jefngkv6::::res://Assets/sprites/snake.png<>uid://cajda08lxiugy::::res://Assets/sprites/Food.png
-::res://Scripts/::1696177717
-Game.gd::GDScript::-1::1696177717::0::1::::<>Node<>::
+::res://Escenas/::1696181884
+game.tscn::PackedScene::4402512461664902125::1696181884::0::1::::<><>::res://Scripts/Game.gd<>uid://by6e6jefngkv6::::res://Assets/sprites/snake.png<>uid://cajda08lxiugy::::res://Assets/sprites/Food.png
+::res://Scripts/::1696181914
+Game.gd::GDScript::-1::1696181914::0::1::::<>Node<>::
