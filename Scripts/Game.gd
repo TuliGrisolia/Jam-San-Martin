@@ -57,7 +57,10 @@ func add_snake():
 		if part_index == 0:
 			$SnakeFood.set_cell(0, Vector2i(part.x, part.y), 0, Vector2i(0,0))
 		else:
-			$SnakeFood.set_cell(0, Vector2i(part.x, part.y), 0, Vector2i(1,0))
+			if snake_fruits_eaten.has(snake_body[part_index]):
+				$SnakeFood.set_cell(0, Vector2i(part.x, part.y), 3, Vector2i(0,0))
+			else:
+				$SnakeFood.set_cell(0, Vector2i(part.x, part.y), 0, Vector2i(1,0))
 	pass
 	
 func move_snake():
