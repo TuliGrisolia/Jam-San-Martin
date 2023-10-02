@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://g5idyfx8u38i"]
+
+[ext_resource type="Texture2D" uid="uid://dkwnnlxx3ovdc" path="res://Assets/sprites/fondo.jpg" id="1_4h70k"]
+[ext_resource type="Script" path="res://Scripts/ayuda.gd" id="1_w3av1"]
+[ext_resource type="Texture2D" uid="uid://ck7lqbpfsl1n5" path="res://Assets/sprites/ayuda.png" id="2_ehs8x"]
+[ext_resource type="AudioStream" uid="uid://kemyq234u6r8" path="res://Assets/sonidos/Pickup_food.wav" id="4_jnc7u"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_w3av1")
+
+[node name="Fondo" type="Sprite2D" parent="."]
+position = Vector2(320, 320)
+texture = ExtResource("1_4h70k")
+
+[node name="Ayuda" type="Sprite2D" parent="."]
+position = Vector2(318, 294)
+texture = ExtResource("2_ehs8x")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 562.0
+offset_top = 85.0
+offset_right = 597.0
+offset_bottom = 127.0
+theme_override_colors/font_color = Color(0.976471, 0.976471, 0.976471, 1)
+theme_override_font_sizes/font_size = 50
+text = "X"
+
+[node name="Audio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_jnc7u")
+volume_db = -10.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

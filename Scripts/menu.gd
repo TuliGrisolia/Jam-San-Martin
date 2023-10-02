@@ -12,7 +12,7 @@ func _ready():
 	pass # Replace with function body.
 
 func _on_jugar_pressed():
-	get_tree().change_scene_to_file("res://Escenas/game.tscn")
+	get_tree().change_scene_to_file("res://Escenas/ayuda.tscn")
 	pass # Replace with function body.
 
 

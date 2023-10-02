@@ -5,3 +5,8 @@ res://Escenas/pantalla_intro.tscn
 res://Escenas/creditos.tscn
 res://Escenas/menu.tscn
 res://Scripts/menu.gd
+res://Escenas/ayuda.tscn
+res://Scripts/ayuda.gd
+res://Scripts/creditos.gd
+res://Scripts/Game.gd
+res://Escenas/pausa.tscn

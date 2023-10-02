@@ -1,6 +1,6 @@
-AudioStreamPlayer
 Button
 VBoxContainer
+AudioStreamPlayer
 Popup
 RichTextLabel
 AnimationPlayer

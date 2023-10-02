@@ -114,3 +114,8 @@ func _on_timer_timeout():
 	add_snake()
 	check_food_eaten()
 	pass # Replace with function body.
+
+
+func _on_button_pressed():
+	get_tree().change_scene_to_file("res://Escenas/pausa.tscn")
+	pass # Replace with function body.
