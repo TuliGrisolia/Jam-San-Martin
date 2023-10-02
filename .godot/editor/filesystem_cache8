@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696201138
+::res://::1696207522
 icon.svg::CompressedTexture2D::7387400790285321232::1696110016::1696110048::1::::<><>::
 ::res://Assets/::1696203623
 el-ejercito-de-los-andes.png::CompressedTexture2D::2386232660367854125::1696199019::1696199019::1::::<><>::
@@ -19,14 +19,14 @@ Fondo.png::CompressedTexture2D::1046298431748868166::1696115022::1696115117::1::
 Food.png::CompressedTexture2D::4791604282744201988::1696115060::1696116195::1::::<><>::
 snake.png::CompressedTexture2D::4135247348098015537::1696115051::1696115124::1::::<><>::
 Soldado-comido.png::CompressedTexture2D::574120015684237111::1696205431::1696205431::1::::<><>::
-::res://Escenas/::1696205196
-creditos.tscn::PackedScene::6226306680514895907::1696205196::0::1::::<><>::uid://cfclw873hkboo::::res://Assets/sprites/fondo-intro.jpg<>uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf<>uid://cf742lff0jb3g::::res://Assets/sprites/fans.png
-game.tscn::PackedScene::4402512461664902125::1696205196::0::1::::<><>::res://Scripts/Game.gd<>uid://by6e6jefngkv6::::res://Assets/sprites/snake.png<>uid://o53m87dwhvsw::::res://Assets/sprites/Fondo.png<>uid://cajda08lxiugy::::res://Assets/sprites/Food.png<>uid://foldlr0unwkp::::res://Assets/Soldado.png<>uid://c1lxs178ap672::::res://Escenas/score.tscn<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav<>uid://7hdg7yg0akf6::::res://Assets/sonidos/Impact.wav
-menu.tscn::PackedScene::1677760980960731758::1696205196::0::1::::<><>::res://Scripts/menu.gd<>uid://cfclw873hkboo::::res://Assets/sprites/fondo-intro.jpg<>uid://dx13yppvmy3i4::::res://Assets/sonidos/Marcha-de-San-Lorenzo.mp3<>uid://8855ygv85rjx::::res://Assets/el-ejercito-de-los-andes.png
-pantalla_intro.tscn::PackedScene::4210524852391179601::1696205196::0::1::::<><>::res://Scripts/pantalla-intro.gd<>uid://cfclw873hkboo::::res://Assets/sprites/fondo-intro.jpg<>uid://cf742lff0jb3g::::res://Assets/sprites/fans.png<>uid://dx13yppvmy3i4::::res://Assets/sonidos/Marcha-de-San-Lorenzo.mp3
-score.tscn::PackedScene::6621889508934458991::1696205196::0::1::::<><>::uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf<>res://Scripts/score.gd
-::res://Scripts/::1696204341
-Game.gd::GDScript::-1::1696204341::0::1::::<>Node<>::
+::res://Escenas/::1696206459
+creditos.tscn::PackedScene::6226306680514895907::1696206459::0::1::::<><>::uid://cfclw873hkboo::::res://Assets/sprites/fondo-intro.jpg<>uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf<>uid://cf742lff0jb3g::::res://Assets/sprites/fans.png
+game.tscn::PackedScene::4402512461664902125::1696206459::0::1::::<><>::res://Scripts/Game.gd<>uid://by6e6jefngkv6::::res://Assets/sprites/snake.png<>uid://o53m87dwhvsw::::res://Assets/sprites/Fondo.png<>uid://cajda08lxiugy::::res://Assets/sprites/Food.png<>uid://foldlr0unwkp::::res://Assets/Soldado.png<>uid://c1lxs178ap672::::res://Escenas/score.tscn<>uid://igdw4y456od8::::res://Assets/sprites/Soldado-comido.png<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav<>uid://7hdg7yg0akf6::::res://Assets/sonidos/Impact.wav
+menu.tscn::PackedScene::1677760980960731758::1696206459::0::1::::<><>::res://Scripts/menu.gd<>uid://cfclw873hkboo::::res://Assets/sprites/fondo-intro.jpg<>uid://dx13yppvmy3i4::::res://Assets/sonidos/Marcha-de-San-Lorenzo.mp3<>uid://8855ygv85rjx::::res://Assets/el-ejercito-de-los-andes.png
+pantalla_intro.tscn::PackedScene::4210524852391179601::1696206459::0::1::::<><>::res://Scripts/pantalla-intro.gd<>uid://cfclw873hkboo::::res://Assets/sprites/fondo-intro.jpg<>uid://cf742lff0jb3g::::res://Assets/sprites/fans.png<>uid://dx13yppvmy3i4::::res://Assets/sonidos/Marcha-de-San-Lorenzo.mp3
+score.tscn::PackedScene::6621889508934458991::1696206459::0::1::::<><>::uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf<>res://Scripts/score.gd
+::res://Scripts/::1696205808
+Game.gd::GDScript::-1::1696205808::0::1::::<>Node<>::
 menu.gd::GDScript::-1::1696197540::0::1::::<>Node2D<>::
 pantalla-intro.gd::GDScript::-1::1696193705::0::1::::<>Node2D<>::
 score.gd::GDScript::-1::1696189329::0::1::::<>Control<>::
