@@ -1,3 +1,4 @@
+Timer
 Button
 VBoxContainer
 AudioStreamPlayer
@@ -6,6 +7,5 @@ RichTextLabel
 AnimationPlayer
 Label
 TextureRect
-Timer
 TileMap
 Node

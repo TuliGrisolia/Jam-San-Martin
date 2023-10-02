@@ -11,7 +11,10 @@ config_version=5
 [application]
 
 config/name="Ejercito-de-los-andes"
+run/main_scene="res://Escenas/pantalla_intro.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
+boot_splash/bg_color=Color(0.933333, 0.980392, 0.992157, 1)
+boot_splash/image="res://Assets/sprites/logos-intro.png"
 config/icon="res://icon.svg"
 
 [display]
