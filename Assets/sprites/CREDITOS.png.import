@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://8855ygv85rjx"
-path="res://.godot/imported/el-ejercito-de-los-andes.png-1d6e00a01c2e2cd34dc05ab8bfd910e1.ctex"
+uid="uid://jp8yyix8osew"
+path="res://.godot/imported/CREDITOS.png-ad1b59edc514c077082eaa2b24873c40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/el-ejercito-de-los-andes.png"
-dest_files=["res://.godot/imported/el-ejercito-de-los-andes.png-1d6e00a01c2e2cd34dc05ab8bfd910e1.ctex"]
+source_file="res://Assets/sprites/CREDITOS.png"
+dest_files=["res://.godot/imported/CREDITOS.png-ad1b59edc514c077082eaa2b24873c40.ctex"]
 
 [params]
 

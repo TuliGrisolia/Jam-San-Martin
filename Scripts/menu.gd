@@ -11,14 +11,16 @@ func _ready():
 	get_node("Soundtrack_Menu").play()
 	pass # Replace with function body.
 
-func _on_Button_Start_pressed():
-	get_tree().change_scene_to_file("res://Scenes/Level1.tscn")
+func _on_jugar_pressed():
+	get_tree().change_scene_to_file("res://Escenas/game.tscn")
+	pass # Replace with function body.
 
-func _on_Button_Credits_pressed():
-	get_tree().change_scene_to_file("res://Scenes/Credits.tscn")
-	
-func _on_Button_Quit_pressed():
+
+func _on_créditos_pressed():
+	get_tree().change_scene_to_file("res://Escenas/creditos.tscn")
+	pass # Replace with function body.
+
+
+func _on_salir_pressed():
 	get_tree().quit()
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+	pass # Replace with function body.

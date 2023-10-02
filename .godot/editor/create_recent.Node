@@ -1,5 +1,7 @@
-Button
 AudioStreamPlayer
+Button
+VBoxContainer
+Popup
 RichTextLabel
 AnimationPlayer
 Label
