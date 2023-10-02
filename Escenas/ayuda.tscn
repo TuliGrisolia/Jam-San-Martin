@@ -28,5 +28,6 @@ text = "X"
 [node name="Audio" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_jnc7u")
 volume_db = -10.0
+bus = &"Sonido"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

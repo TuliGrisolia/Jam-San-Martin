@@ -1,0 +1,68 @@
+[gd_scene load_steps=4 format=3 uid="uid://dv7rj2oscoupi"]
+
+[ext_resource type="Texture2D" uid="uid://6bi18gfgtccv" path="res://Assets/sprites/configuración.png" id="1_32n44"]
+[ext_resource type="Script" path="res://Scripts/configuracion.gd" id="1_lqx0h"]
+[ext_resource type="AudioStream" uid="uid://bhm7rtjragniy" path="res://Assets/sonidos/Song Snake-Wav.wav" id="3_85gt7"]
+
+[node name="Configuracion" type="Node2D"]
+script = ExtResource("1_lqx0h")
+
+[node name="Configuración" type="Sprite2D" parent="."]
+position = Vector2(322.5, 322.5)
+scale = Vector2(0.625977, 0.625977)
+texture = ExtResource("1_32n44")
+
+[node name="Button" type="Button" parent="Configuración"]
+offset_left = 43.9313
+offset_top = 317.105
+offset_right = 426.931
+offset_bottom = 411.105
+theme_override_font_sizes/font_size = 25
+text = "Volver al Menú principal"
+
+[node name="Sonido" type="Label" parent="."]
+offset_left = 350.0
+offset_top = 244.0
+offset_right = 597.0
+offset_bottom = 296.0
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 35
+text = "Sonido"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HSlider-sonido" type="HSlider" parent="."]
+offset_left = 350.0
+offset_top = 308.0
+offset_right = 597.0
+offset_bottom = 324.0
+max_value = 0.0
+
+[node name="Efectos" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 410.0
+offset_top = 381.0
+offset_right = 601.0
+offset_bottom = 433.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 35
+text = "Efectos"
+
+[node name="HSlider-efectos" type="HSlider" parent="."]
+offset_left = 350.0
+offset_top = 441.0
+offset_right = 597.0
+offset_bottom = 457.0
+max_value = 0.0
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_85gt7")
+volume_db = -10.0
+autoplay = true
+bus = &"Sonido"
+
+[connection signal="pressed" from="Configuración/Button" to="." method="_on_button_pressed"]
+[connection signal="value_changed" from="HSlider-sonido" to="." method="_on_h_slidersonido_value_changed"]
+[connection signal="value_changed" from="HSlider-efectos" to="." method="_on_h_sliderefectos_value_changed"]

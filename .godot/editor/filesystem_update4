@@ -6,3 +6,10 @@ res://Escenas/creditos.tscn
 res://Escenas/menu.tscn
 res://Escenas/ayuda.tscn
 res://Scripts/pantalla-intro.gd
+res://Escenas/configuracion.tscn
+res://Scripts/menu.gd
+res://Scripts/configuracion.gd
+res://default_bus_layout.tres
+res://Scripts/new_script.gd
+res://Scripts/Game.gd
+res://Scripts/ayuda.gd

@@ -24,3 +24,8 @@ func _on_créditos_pressed():
 func _on_salir_pressed():
 	get_tree().quit()
 	pass # Replace with function body.
+
+
+func _on_configuración_pressed():
+	get_tree().change_scene_to_file("res://Escenas/configuracion.tscn")
+	pass # Replace with function body.

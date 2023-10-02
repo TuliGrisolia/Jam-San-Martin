@@ -62,16 +62,19 @@ autostart = true
 stream = ExtResource("6_m8y1b")
 volume_db = -10.0
 autoplay = true
+bus = &"Sonido"
 
 [node name="growing" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("7_m2je8")
 volume_db = -10.0
+bus = &"Efectos"
 
 [node name="impact" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("8_ctpm2")
 volume_db = -10.0
+bus = &"Efectos"
 
-[node name="Button" type="Button" parent="."]
+[node name="Pausa" type="Button" parent="."]
 offset_left = 597.0
 offset_top = 13.0
 offset_right = 627.0
@@ -81,5 +84,27 @@ theme_override_fonts/font = ExtResource("11_gbv0e")
 theme_override_font_sizes/font_size = 30
 text = " ||"
 
+[node name="AudioPausa" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_ctpm2")
+
+[node name="Volver" type="Button" parent="."]
+process_mode = 2
+visible = false
+offset_left = 46.0
+offset_top = 582.0
+offset_right = 216.0
+offset_bottom = 613.0
+text = "Volver al jugar"
+
+[node name="Menu" type="Button" parent="."]
+process_mode = 2
+visible = false
+offset_left = 266.0
+offset_top = 580.0
+offset_right = 436.0
+offset_bottom = 611.0
+text = "Menú Principal"
+
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Volver" to="." method="_on_volver_pressed"]
+[connection signal="pressed" from="Menu" to="." method="_on_menu_pressed"]

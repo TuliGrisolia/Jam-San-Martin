@@ -16,6 +16,7 @@ texture = ExtResource("1_mckmi")
 stream = ExtResource("2_i15nj")
 volume_db = -10.0
 autoplay = true
+bus = &"Sonido"
 
 [node name="Button" type="Button" parent="."]
 offset_left = 350.0

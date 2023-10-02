@@ -14,6 +14,7 @@ var adding_food = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	food_pos = def_pos_food()
+	process_mode = Node.PROCESS_MODE_PAUSABLE
 	pass # Replace with function body.
 	
 func _process(delta):
@@ -113,9 +114,4 @@ func _on_timer_timeout():
 	add_food()
 	add_snake()
 	check_food_eaten()
-	pass # Replace with function body.
-
-
-func _on_button_pressed():
-	get_tree().change_scene_to_file("res://Escenas/pausa.tscn")
 	pass # Replace with function body.
