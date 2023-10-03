@@ -12,5 +12,6 @@ func _process(delta):
 
 
 func _on_button_pressed():
+	$Button/AudioMenuP.play()
 	get_tree().change_scene_to_file("res://Escenas/menu.tscn")
 	pass # Replace with function body.

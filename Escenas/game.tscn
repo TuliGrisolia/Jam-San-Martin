@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scripts/Game.gd" id="1_0vflf"]
 [ext_resource type="Texture2D" uid="uid://by6e6jefngkv6" path="res://Assets/sprites/snake.png" id="2_4dj6s"]
-[ext_resource type="Texture2D" uid="uid://dkwnnlxx3ovdc" path="res://Assets/sprites/fondo.jpg" id="2_ivf1x"]
+[ext_resource type="Texture2D" uid="uid://c8sqgjlgtry75" path="res://Assets/sprites/fondo-claro.png" id="2_le71b"]
 [ext_resource type="Texture2D" uid="uid://cajda08lxiugy" path="res://Assets/sprites/Food.png" id="3_v5v6n"]
 [ext_resource type="Texture2D" uid="uid://foldlr0unwkp" path="res://Assets/Soldado.png" id="4_n2c1e"]
 [ext_resource type="PackedScene" uid="uid://c1lxs178ap672" path="res://Escenas/score.tscn" id="5_tf1b1"]
@@ -46,7 +46,7 @@ script = ExtResource("1_0vflf")
 [node name="fondo" type="TextureRect" parent="."]
 offset_right = 640.0
 offset_bottom = 640.0
-texture = ExtResource("2_ivf1x")
+texture = ExtResource("2_le71b")
 
 [node name="SnakeFood" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_lvtgr")
@@ -96,6 +96,10 @@ offset_right = 282.0
 offset_bottom = 312.0
 text = "Volver al jugar"
 
+[node name="AudioVolver" type="AudioStreamPlayer" parent="Volver"]
+stream = ExtResource("7_m2je8")
+volume_db = -10.0
+
 [node name="Salir" type="Button" parent="."]
 process_mode = 2
 offset_left = 376.0
@@ -103,6 +107,9 @@ offset_top = 248.0
 offset_right = 568.0
 offset_bottom = 312.0
 text = "Salir del juego"
+
+[node name="AudioSalir" type="AudioStreamPlayer" parent="Salir"]
+stream = ExtResource("8_ctpm2")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="pressed" from="Pausa" to="." method="_on_pausa_pressed"]

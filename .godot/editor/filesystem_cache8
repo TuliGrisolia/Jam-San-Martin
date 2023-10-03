@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696306164
+::res://::1696306558
 default_bus_layout.tres::AudioBusLayout::6654048395986349513::1696276788::0::1::::<><>::
 icon.svg::CompressedTexture2D::7387400790285321232::1696110016::1696110048::1::::<><>::
 ::res://Assets/::1696266495
@@ -12,11 +12,12 @@ Impact.wav::AudioStreamWAV::2260688224565726785::1696115159::1696115159::1::::<>
 Marcha-de-San-Lorenzo.mp3::AudioStreamMP3::8829023023204254973::1696196200::1696196200::1::::<><>::
 Pickup_food.wav::AudioStreamWAV::710918293758567695::1696115159::1696115159::1::::<><>::
 Song Snake-Wav.wav::AudioStreamWAV::2904489437092500972::1696115159::1696189540::1::::<><>::
-::res://Assets/sprites/::1696299577
+::res://Assets/sprites/::1696306609
 ayuda.png::CompressedTexture2D::5541486427466458648::1696267182::1696267183::1::::<><>::
 configuración.png::CompressedTexture2D::2178452439892048249::1696299517::1696299517::1::::<><>::
 CREDITOS.png::CompressedTexture2D::664713052876722758::1696299567::1696299567::1::::<><>::
 fans.png::CompressedTexture2D::5191655268673751546::1696192763::1696192763::1::::<><>::
+fondo-claro.png::CompressedTexture2D::7127214683663739382::1696306609::1696306609::1::::<><>::
 fondo.jpg::CompressedTexture2D::7907379948646029708::1696246304::1696266496::1::::<><>::
 Fondo.png::CompressedTexture2D::1046298431748868166::1696115022::1696115117::1::::<><>::
 fondoIntro.png::CompressedTexture2D::3290798788127306349::1696255517::1696255518::1::::<><>::
@@ -27,21 +28,21 @@ menu.png::CompressedTexture2D::8959740058582804336::1696299577::1696299577::1:::
 pausa.png::CompressedTexture2D::6532584080081383174::1696268425::1696268425::1::::<><>::
 snake.png::CompressedTexture2D::4135247348098015537::1696115051::1696115124::1::::<><>::
 Soldado-comido.png::CompressedTexture2D::574120015684237111::1696205431::1696205431::1::::<><>::
-::res://Escenas/::1696306134
-ayuda.tscn::PackedScene::483556757148192938::1696305992::0::1::::<><>::uid://dkwnnlxx3ovdc::::res://Assets/sprites/fondo.jpg<>res://Scripts/ayuda.gd<>uid://ck7lqbpfsl1n5::::res://Assets/sprites/ayuda.png<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav
-configuracion.tscn::PackedScene::8700337557208869926::1696306134::0::1::::<><>::uid://6bi18gfgtccv::::res://Assets/sprites/configuración.png<>res://Scripts/configuracion.gd<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav
-creditos.tscn::PackedScene::6226306680514895907::1696305992::0::1::::<><>::res://Scripts/creditos.gd<>uid://jp8yyix8osew::::res://Assets/sprites/CREDITOS.png<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav
-game.tscn::PackedScene::4402512461664902125::1696306134::0::1::::<><>::res://Scripts/Game.gd<>uid://by6e6jefngkv6::::res://Assets/sprites/snake.png<>uid://dkwnnlxx3ovdc::::res://Assets/sprites/fondo.jpg<>uid://cajda08lxiugy::::res://Assets/sprites/Food.png<>uid://foldlr0unwkp::::res://Assets/Soldado.png<>uid://c1lxs178ap672::::res://Escenas/score.tscn<>uid://igdw4y456od8::::res://Assets/sprites/Soldado-comido.png<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav<>uid://7hdg7yg0akf6::::res://Assets/sonidos/Impact.wav<>uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf
-menu.tscn::PackedScene::1677760980960731758::1696305992::0::1::::<><>::res://Scripts/menu.gd<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav<>uid://d0wfuy330xm45::::res://Assets/sprites/menu.png
-pantalla_intro.tscn::PackedScene::4210524852391179601::1696305992::0::1::::<><>::res://Scripts/pantalla-intro.gd<>uid://bm5c8fnf84ed6::::res://Assets/sprites/fondoIntro.png<>uid://7hdg7yg0akf6::::res://Assets/sonidos/Impact.wav
-pausa.tscn::PackedScene::3712824380051797318::1696305992::0::1::::<><>::res://Scripts/ayuda.gd<>uid://dkwnnlxx3ovdc::::res://Assets/sprites/fondo.jpg<>uid://c0cox8od7u7d7::::res://Assets/sprites/pausa.png<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav
-score.tscn::PackedScene::6621889508934458991::1696305992::0::1::::<><>::uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf<>res://Scripts/score.gd
+::res://Escenas/::1696306288
+ayuda.tscn::PackedScene::483556757148192938::1696306288::0::1::::<><>::uid://dkwnnlxx3ovdc::::res://Assets/sprites/fondo.jpg<>res://Scripts/ayuda.gd<>uid://ck7lqbpfsl1n5::::res://Assets/sprites/ayuda.png<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav
+configuracion.tscn::PackedScene::8700337557208869926::1696306288::0::1::::<><>::uid://6bi18gfgtccv::::res://Assets/sprites/configuración.png<>res://Scripts/configuracion.gd<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav
+creditos.tscn::PackedScene::6226306680514895907::1696306288::0::1::::<><>::res://Scripts/creditos.gd<>uid://jp8yyix8osew::::res://Assets/sprites/CREDITOS.png<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav
+game.tscn::PackedScene::4402512461664902125::1696306288::0::1::::<><>::res://Scripts/Game.gd<>uid://by6e6jefngkv6::::res://Assets/sprites/snake.png<>uid://dkwnnlxx3ovdc::::res://Assets/sprites/fondo.jpg<>uid://cajda08lxiugy::::res://Assets/sprites/Food.png<>uid://foldlr0unwkp::::res://Assets/Soldado.png<>uid://c1lxs178ap672::::res://Escenas/score.tscn<>uid://igdw4y456od8::::res://Assets/sprites/Soldado-comido.png<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav<>uid://7hdg7yg0akf6::::res://Assets/sonidos/Impact.wav<>uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf
+menu.tscn::PackedScene::1677760980960731758::1696306288::0::1::::<><>::res://Scripts/menu.gd<>uid://bhm7rtjragniy::::res://Assets/sonidos/Song Snake-Wav.wav<>uid://d0wfuy330xm45::::res://Assets/sprites/menu.png
+pantalla_intro.tscn::PackedScene::4210524852391179601::1696306288::0::1::::<><>::res://Scripts/pantalla-intro.gd<>uid://bm5c8fnf84ed6::::res://Assets/sprites/fondoIntro.png<>uid://7hdg7yg0akf6::::res://Assets/sonidos/Impact.wav
+pausa.tscn::PackedScene::3712824380051797318::1696306288::0::1::::<><>::res://Scripts/ayuda.gd<>uid://dkwnnlxx3ovdc::::res://Assets/sprites/fondo.jpg<>uid://c0cox8od7u7d7::::res://Assets/sprites/pausa.png<>uid://kemyq234u6r8::::res://Assets/sonidos/Pickup_food.wav
+score.tscn::PackedScene::6621889508934458991::1696306288::0::1::::<><>::uid://pkxbkski0xb4::::res://Assets/fuentes/Kenney Future Narrow.ttf<>res://Scripts/score.gd
 setting.tscn::PackedScene::1444873700768926822::1696264714::0::1::::<><>::
-::res://Scripts/::1696305450
+::res://Scripts/::1696306288
 ayuda.gd::GDScript::-1::1696288198::0::1::::<>Node2D<>::
 configuracion.gd::GDScript::-1::1696305450::0::1::::<>Node2D<>::
 creditos.gd::GDScript::-1::1696267970::0::1::::<>Node2D<>::
-Game.gd::GDScript::-1::1696302139::0::1::::<>Node<>::
+Game.gd::GDScript::-1::1696306288::0::1::::<>Node<>::
 menu.gd::GDScript::-1::1696276424::0::1::::<>Node2D<>::
 pantalla-intro.gd::GDScript::-1::1696273041::0::1::::<>Node2D<>::
 score.gd::GDScript::-1::1696189329::0::1::::<>Control<>::

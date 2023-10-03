@@ -129,6 +129,7 @@ func _on_pausa_pressed():
 
 func _on_volver_pressed():
 	get_tree().paused = false
+	$Volver/AudioVolver.play()
 	$Volver.hide()
 	$Salir.hide()
 	$Pausa.show()
@@ -136,5 +137,6 @@ func _on_volver_pressed():
 
 
 func _on_salir_pressed():
+	$Salir/AudioSalir.play()
 	get_tree().quit()
 	pass # Replace with function body.
