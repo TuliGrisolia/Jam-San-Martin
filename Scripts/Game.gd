@@ -130,6 +130,7 @@ func _on_pausa_pressed():
 func _on_volver_pressed():
 	get_tree().paused = false
 	$Volver.hide()
+	$Salir.hide()
 	$Pausa.show()
 	pass # Replace with function body.
 
