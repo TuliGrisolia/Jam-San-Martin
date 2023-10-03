@@ -6,6 +6,3 @@ res://Escenas/menu.tscn
 res://Escenas/ayuda.tscn
 res://Escenas/pausa.tscn
 res://Escenas/configuracion.tscn
-res://Scripts/Game.gd
-res://Scripts/creditos.gd
-res://Scripts/menu.gd
