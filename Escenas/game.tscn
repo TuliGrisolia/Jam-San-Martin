@@ -90,18 +90,18 @@ autoplay = true
 
 [node name="Volver" type="Button" parent="."]
 process_mode = 2
-offset_left = 46.0
-offset_top = 582.0
-offset_right = 216.0
-offset_bottom = 613.0
+offset_left = 72.0
+offset_top = 248.0
+offset_right = 282.0
+offset_bottom = 312.0
 text = "Volver al jugar"
 
 [node name="Salir" type="Button" parent="."]
 process_mode = 2
-offset_left = 266.0
-offset_top = 580.0
-offset_right = 436.0
-offset_bottom = 611.0
+offset_left = 376.0
+offset_top = 248.0
+offset_right = 568.0
+offset_bottom = 312.0
 text = "Salir del juego"
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
