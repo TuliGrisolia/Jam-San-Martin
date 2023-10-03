@@ -14,7 +14,8 @@ var adding_food = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	food_pos = def_pos_food()
-	process_mode = Node.PROCESS_MODE_PAUSABLE
+	$Volver.hide()
+	$Salir.hide()
 	pass # Replace with function body.
 	
 func _process(delta):
@@ -114,4 +115,25 @@ func _on_timer_timeout():
 	add_food()
 	add_snake()
 	check_food_eaten()
+	pass # Replace with function body.
+
+
+func _on_pausa_pressed():
+	get_tree().paused = true
+	$AudioPausa.play()
+	$Pausa.hide()
+	$Volver.show()
+	$Salir.show()
+	pass # Replace with function body.
+
+
+func _on_volver_pressed():
+	get_tree().paused = false
+	$Volver.hide()
+	$Pausa.show()
+	pass # Replace with function body.
+
+
+func _on_salir_pressed():
+	get_tree().quit()
 	pass # Replace with function body.
